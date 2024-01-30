@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#FF9800"
+        android:drawableTint="#FFFFFF"
+        android:foregroundTint="#F1EDED"
+        android:text="Ver Carta"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
